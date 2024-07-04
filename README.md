@@ -1,4 +1,4 @@
-# Hello, I'm [Sudhan Shankar]! 👋
+# Hello, I'm Sudhan Shankar! 👋
 
 ## About Me
 I enjoy Web dev, Cybersecurity(Forensics).
