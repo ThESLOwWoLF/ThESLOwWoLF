@@ -1,14 +1,19 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Sudhan%20Shankar&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=ML%20%7C%20LiDAR%20%7C%20LLMs%20%7C%20Systems&descAlignY=58&descSize=18" />
+
 <div align="center">
 
-# Hey, I'm Sudhan 👋
-
 <a href="https://github.com/ThESLOwWoLF">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=Final-year+CSE+%40+Amrita+Bengaluru+(2027);I+break+networks+to+learn+how+they+work;I+train+models+and+then+try+to+prove+them+wrong;Currently%3A+arguing+with+LiDAR+point+clouds" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=Final-year+CSE+%40+Amrita+Bengaluru+(2027);I+train+models+and+then+try+to+prove+them+wrong;Leakage+hunter.+Baseline+enjoyer.;Currently%3A+arguing+with+LiDAR+point+clouds" alt="Typing SVG" />
 </a>
 
 <a href="https://www.linkedin.com/in/sudhan-shankar-1710a529b/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:sudhan1345@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <img src="https://komarev.com/ghpvc/?username=ThESLOwWoLF&style=for-the-badge&color=blueviolet&label=visitors" />
+<img src="https://img.shields.io/badge/fuel-red%20bull-DB0A40?style=for-the-badge" />
+<img src="https://img.shields.io/badge/sleep-deprecated-555555?style=for-the-badge" />
+
+<!-- ANIME GIF: paste a GIF link you like below and uncomment the line -->
+<!-- <img src="PASTE_GIF_URL_HERE" width="320" /> -->
 
 </div>
 
@@ -19,22 +24,27 @@ sudhan@slowwolf:~$ whoami
 final-year CSE student, Amrita Vishwa Vidyapeetham, Bengaluru (2027)
 
 sudhan@slowwolf:~$ cat interests.txt
-networks  -> how they're built, how they break, how to secure them
 ml        -> models I can actually evaluate, not just train
+3d vision -> LiDAR point clouds, range images, geometry
+llms      -> local models, orchestration, grounding
 systems   -> anything that makes me read a spec at 2 am
 
 sudhan@slowwolf:~$ ls achievements/
-ieee_paper_rl.pdf   arista_12wk_bootcamp/   bi0s_ctf_forensics/   ccna/ (loading...)
+ieee_paper_rl.pdf   p2p_net_lidar/   wavlm_leakage_fix/   bi0s_ctf_forensics/
 
 sudhan@slowwolf:~$ echo $STATUS
-looking for internships: ML / Applied AI / Software / Network Engineering
+looking for internships: ML / Applied AI / Research Engineering
+
+sudhan@slowwolf:~$ cat fuel.log
+red bull   ████████████████████  100%
+sleep      ██░░░░░░░░░░░░░░░░░░   10%
 ```
 
 ---
 
-## 🧪 Things I've built
+## Things I've built
 
-### 📡 P2P-Net: Zero-Shot LiDAR Super-Resolution
+### P2P-Net: Zero-Shot LiDAR Super-Resolution
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Ouster](https://img.shields.io/badge/Ouster_SDK-222222?style=flat-square)
 
 Doubles the vertical resolution of a LiDAR scan (64 to 128 beams) with **no external training data**.
@@ -56,7 +66,7 @@ No simulation, no ICP, no guessing which point matches which.
 
 ---
 
-### 🎙️ Speech Clarity Classifier on WavLM
+### Speech Clarity Classifier on WavLM
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HF_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 Classifies viva answer recordings as low / medium / high clarity using frozen WavLM embeddings and an SVM.
@@ -70,7 +80,7 @@ Served with FastAPI + a Gradio demo, 32 tests, 39 ms per clip on GPU.
 
 ---
 
-### 🤖 Multi-LLM Research Orchestrator
+### Multi-LLM Research Orchestrator
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![NVIDIA](https://img.shields.io/badge/NVIDIA_NIM-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 
 Four LLMs (Gemma 4 31B, Llama 3.3 70B, DeepSeek, local Qwen) answer the same question, critique each other, then one writes the final answer.
@@ -78,7 +88,7 @@ Runs live as background asyncio tasks, so closing the tab doesn't kill the run: 
 
 ---
 
-### ⚙️ Omni-Exec: ELF64 / PE32+ Loader
+### Omni-Exec: ELF64 / PE32+ Loader
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![Assembly](https://img.shields.io/badge/x86--64_ASM-654FF0?style=flat-square) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
 
 Loads code from a Linux ELF on Windows (and a Windows PE on Linux) and calls it through a **24-byte trampoline I hand-encoded in machine code**, swapping Microsoft x64 argument registers into System V order.
@@ -97,32 +107,23 @@ FF E0       jmp rax        ; and pray
 
 ---
 
-### 🛡️ Network side quests
-
-| Project | What it does |
-|---|---|
-| **MQTT Smart Proxy Firewall** | Sits in front of the broker: time-window rate limiting against floods, role-based topic access, JSON-schema checks on payloads |
-| **SDN Slicing & QoS** | Ryu + Mininet + OpenFlow: three traffic classes routed into Linux HTB queues, with a live bandwidth dashboard |
-
----
-
-## 🛠️ Toolbox
+## Toolbox
 
 **Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
 **ML**
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HF_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![HuggingFace](https://img.shields.io/badge/HF_Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) ![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white)
 
-**Networking**
-![TCP/IP](https://img.shields.io/badge/TCP%2FIP-555555?style=flat-square) ![OSPF](https://img.shields.io/badge/OSPF-555555?style=flat-square) ![VLAN](https://img.shields.io/badge/VLAN%20%2F%20STP-555555?style=flat-square) ![SDN](https://img.shields.io/badge/SDN%20%2F%20OpenFlow-555555?style=flat-square) ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white) ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+**LLMs**
+![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-76B900?style=flat-square&logo=nvidia&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 
 **Backend & tools**
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
 ---
 
-## 📜 git log --oneline (lessons learned)
+## git log --oneline (lessons learned)
 
 ```text
 f3a91c2  fix(wavlm): 0.69 F1 was leakage. honest score is 0.46. growth.
@@ -134,18 +135,23 @@ b7e04d1  feat(lidar): read the sensor metadata. found a free benchmark in it.
 
 ---
 
-## 🔨 Currently
+## Currently
 
 - Rebuilding my English-to-KQL project around a local LLM, with a real KQL parser in the loop
+- Testing whether four LLMs arguing actually beats the best single one
+- Pushing P2P-Net v2 to GitHub
 - Deep Learning Specialisation (DeepLearning.AI)
 
 ---
 
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/ThESLOwWoLF/ThESLOwWoLF/output/github-contribution-grid-snake-dark.svg" width="100%" />
+
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=ThESLOwWoLF&show_icons=true&theme=tokyonight&hide_border=true" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ThESLOwWoLF&layout=compact&theme=tokyonight&hide_border=true" />
 
-*If you read this far, we should probably talk.* 📬
+*If you read this far, we should probably talk.*
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" /> 
 </div>
